@@ -5,18 +5,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="main-menu.js"></script>
+    <script src="basket.js"></script>
 </head>
 <body class="content">
-    <div class="item-content">
+   <div id="basket">
+   	<span>basket</span>
+   	<span id="youAdds">your adds: </span>
+   	<div id="close">close</div>
+   </div>
+    <div class="item-content clearfix">
+     <div class="header clearfix">
         <menu>
             <ul>
                 <li>main page</li>
                 
                     <li id="dropdown">news
                     <ul class="hide">
-                        <li>lorem</li>
-                        <li>lorem2</li>
-                        <li>lorem3</li>
+                        <li>lorem ipsum.</li>
+                        <li>lorem.</li>
+                        <li>Lorem ipsum dolor.</li>
                     </ul>
                 </li>
                 <li>about us</li>
@@ -24,6 +31,21 @@
                 <li>why we</li>
             </ul>
         </menu>
+     </div>
+    <div class="products-wrap clearfix">
+    	<div class="block blockApple">
+    		<img src="img/apple-128.png" alt="">
+    		<button id="addApple">add apple</button>
+    	</div>
+    	<div class="block blockBannana">
+    		<img src="img/Bannana-128.png" alt="">
+    		<button id="addBannana">add bannana</button>
+    	</div>
+    	<div class=" block blockPeach">
+    		<img src="img/Fruits-19-128.png" alt="">
+    		<button class="addPeach">add peach</button>
+    	</div>
+    </div>
     </div> 
 </body>
 </html>
