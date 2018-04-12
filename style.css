@@ -183,3 +183,35 @@ body{
 	right: 0;
 	cursor: pointer;
 }
+
+.slider-wrap{
+   width: 100%;
+   margin-top: 150px;
+   position: relative;
+}
+
+.leftButton{
+	top: 0;
+	left: 0;
+	background: purple;
+	padding: 5px;
+	width: 30px;
+	color: white;
+	position: absolute;
+}
+
+.rightButton{
+	top: 0;
+	right: 0;
+	background: purple;
+	padding: 5px;
+	width: 30px;
+	color: white;
+	position: absolute;
+}
+
+#img{
+	width: 128px;
+	display: block;
+	margin: 0 auto;
+}
