@@ -10,12 +10,14 @@ document.addEventListener('DOMContentLoaded',function(){
    	}
      img.src = array[i];
      i++;
+     console.log(i)
 
    })
    rightBut.addEventListener('click',function(){
    	i--;
    	if(i == 0){
    		i = array.length-1;
+      console.log(i)
    	}
      img.src = array[i];
    })

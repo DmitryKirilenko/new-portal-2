@@ -221,3 +221,7 @@ body{
     width: 100%;
     margin-top: 100px;
 }
+
+.news-content img{
+	width: 200px;
+}
