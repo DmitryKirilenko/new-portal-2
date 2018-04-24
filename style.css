@@ -229,3 +229,11 @@ body{
 .banner-wrap{
     width: 100%;
 }
+
+.search-wrap{
+    width: 100%;
+}
+
+body{
+    margin-bottom: 100px;
+}
